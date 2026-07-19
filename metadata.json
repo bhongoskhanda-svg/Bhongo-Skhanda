@@ -1,0 +1,6 @@
+{
+  "name": "Skhanda TV",
+  "description": "Your Home of Free SA TV - 10 Curated SA Channels, Live TV Guide, and Premium Black + Red Glass UI",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

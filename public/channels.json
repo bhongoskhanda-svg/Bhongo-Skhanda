@@ -1,0 +1,269 @@
+{
+  "app_info": {
+    "name": "Skhanda TV",
+    "version": "2.3",
+    "note": "Curated & Verified IPTV channels for stable Red-Glass Interaction mode"
+  },
+  "categories": [
+    {"id": "all", "name": "All Channels"},
+    {"id": "community", "name": "Community TV"},
+    {"id": "news", "name": "News Networks"},
+    {"id": "documentary", "name": "Documentaries"},
+    {"id": "church", "name": "Faith Channels"}
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "name": "Soweto TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4e/Soweto_TV_logo.png",
+      "category": ["community", "all"],
+      "type": "m3u8",
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/playlist.m3u8",
+      "is_live": true,
+      "now_playing": "Kasi Kitchen - Soweto Culture Live",
+      "views": "2.4K"
+    },
+    {
+      "id": 2,
+      "name": "Cape Town TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/8/8e/Cape_Town_TV_logo.png",
+      "category": ["community", "all"],
+      "type": "m3u8",
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8",
+      "is_live": true,
+      "now_playing": "Cape Town Pulse - Community Spotlight",
+      "views": "1.2K"
+    },
+    {
+      "id": 3,
+      "name": "1 KZN TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1a/1KZNTV_logo.png",
+      "category": ["community", "all"],
+      "type": "m3u8",
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8",
+      "is_live": true,
+      "now_playing": "KZN Highlights - Zulu Heritage & Music",
+      "views": "1.5K"
+    },
+    {
+      "id": 4,
+      "name": "TBN Africa",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/TBN_logo.png",
+      "category": ["church", "all"],
+      "type": "m3u8",
+      "url": "https://livecdn.use1-0004.jwplive.com/live/sites/Yal8cmyO/media/fCGf6ROk/live.isml/.m3u8",
+      "is_live": true,
+      "now_playing": "Grace & Mercy Gospel Hour",
+      "views": "3.4K"
+    },
+    {
+      "id": 5,
+      "name": "Al Jazeera",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Al_Jazeera_English_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
+      "is_live": true,
+      "now_playing": "Al Jazeera News Hour Live",
+      "views": "18.1K"
+    },
+    {
+      "id": 6,
+      "name": "France 24",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9b/France_24_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+      "is_live": true,
+      "now_playing": "World News France 24 Broadcast",
+      "views": "3.5K"
+    },
+    {
+      "id": 7,
+      "name": "DW English",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/DW_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+      "is_live": true,
+      "now_playing": "DW News Live Bulletins",
+      "views": "5.2K"
+    },
+    {
+      "id": 8,
+      "name": "WildEarth",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/WildEarth_logo.png",
+      "category": ["documentary", "all"],
+      "type": "m3u8",
+      "url": "https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8",
+      "is_live": true,
+      "now_playing": "Live African Safari - Bushveld tracking",
+      "views": "4.9K"
+    },
+    {
+      "id": 9,
+      "name": "NASA TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
+      "category": ["documentary", "all"],
+      "type": "m3u8",
+      "url": "https://ntv1.nasatv.net/hls/nasa_live_high.m3u8",
+      "is_live": true,
+      "now_playing": "NASA Space Station Science Stream",
+      "views": "2.2K"
+    },
+    {
+      "id": 10,
+      "name": "euronews",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Euronews_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8",
+      "is_live": true,
+      "now_playing": "Euronews Prime Live Edition",
+      "views": "1.9K"
+    },
+    {
+      "id": 11,
+      "name": "CNA",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Channel_NewsAsia_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
+      "is_live": true,
+      "now_playing": "CNA Asia First Live News",
+      "views": "11.5K"
+    },
+    {
+      "id": 12,
+      "name": "Bloomberg TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bloomberg_TV_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://bloomberg.com/media-manifest/streams/us.m3u8",
+      "is_live": true,
+      "now_playing": "Bloomberg Markets & Finance Live",
+      "views": "15.4K"
+    },
+    {
+      "id": 13,
+      "name": "Africanews English",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Africanews_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8",
+      "is_live": true,
+      "now_playing": "Africanews Evening Digest",
+      "views": "4.2K"
+    },
+    {
+      "id": 14,
+      "name": "TRT World",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/TRT_World_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+      "is_live": true,
+      "now_playing": "TRT World Global Briefing",
+      "views": "7.8K"
+    },
+    {
+      "id": 15,
+      "name": "CGTN News",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/de/CGTN_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
+      "is_live": true,
+      "now_playing": "CGTN Global Watch Live",
+      "views": "6.3K"
+    },
+    {
+      "id": 16,
+      "name": "CGTN Documentary",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/de/CGTN_logo.svg",
+      "category": ["documentary", "all"],
+      "type": "m3u8",
+      "url": "https://english-livebkali.cgtn.com/live/doccgtn.m3u8",
+      "is_live": true,
+      "now_playing": "CGTN Special Focus Documentary",
+      "views": "3.1K"
+    },
+    {
+      "id": 17,
+      "name": "Faith TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Faith_Broadcasting_Network_logo.png",
+      "category": ["church", "all"],
+      "type": "m3u8",
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8",
+      "is_live": true,
+      "now_playing": "Faith Broadcast Gospel Hour",
+      "views": "2.7K"
+    },
+    {
+      "id": 18,
+      "name": "Bok TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/TV-icon-2.svg",
+      "category": ["community", "all"],
+      "type": "m3u8",
+      "url": "https://livestream2.bokradio.co.za/hls/Bok5c.m3u8",
+      "is_live": true,
+      "now_playing": "Bok TV Afrikaans Hits & Live Radio",
+      "views": "2.1K"
+    },
+    {
+      "id": 19,
+      "name": "SABC News",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/SABC_logo.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8",
+      "is_live": true,
+      "now_playing": "SABC News Prime Time",
+      "views": "25.7K"
+    },
+    {
+      "id": 20,
+      "name": "SABC Lehae",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/SABC_logo.svg",
+      "category": ["community", "all"],
+      "type": "m3u8",
+      "url": "https://sabctretalh.cdn.mangomolo.com/lehae/smil:lehae.stream.smil/master.m3u8",
+      "is_live": true,
+      "now_playing": "SABC Drama & Entertainment Showcase",
+      "views": "8.4K"
+    },
+    {
+      "id": 21,
+      "name": "Tshwane TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/TV-icon-2.svg",
+      "category": ["community", "all"],
+      "type": "m3u8",
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8",
+      "is_live": true,
+      "now_playing": "Tshwane News & Community Talk",
+      "views": "1.9K"
+    },
+    {
+      "id": 22,
+      "name": "TV BRICS Africa",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/TV-icon-2.svg",
+      "category": ["documentary", "all"],
+      "type": "m3u8",
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:brics.stream.smil/playlist.m3u8",
+      "is_live": true,
+      "now_playing": "TV BRICS Global South & African Culture",
+      "views": "2.8K"
+    },
+    {
+      "id": 23,
+      "name": "LN24 SA",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/TV-icon-2.svg",
+      "category": ["news", "all"],
+      "type": "m3u8",
+      "url": "https://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8",
+      "is_live": true,
+      "now_playing": "LN24 SA Breaking News & Analysis",
+      "views": "3.3K"
+    }
+  ]
+}
